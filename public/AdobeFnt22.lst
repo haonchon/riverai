@@ -1,0 +1,82 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/marijanalemm/Desktop/mahakala-booklets/welcomewordsofmahakala Ordner/Document fonts/AdobeFnt22.lst
+FileLength:1911
+FileModTime:659635016
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:F37Bergman-Bold
+FamilyName:F37 Bergman
+StyleName:Bold
+MenuName:F37 Bergman Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:F37 Bergman Bold
+WritingScript:Roman
+OutlineFileName:/Users/marijanalemm/Desktop/mahakala-booklets/welcomewordsofmahakala Ordner/Document fonts/F37Bergman-bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89904
+FileModTime:659635016
+NameArray:0,Mac,4,F37 Bergman Bold
+NameArray:0,Win,1,F37 Bergman Bold
+NameArray:0,Win,16,F37 Bergman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:F37Bergman-Regular
+FamilyName:F37 Bergman
+StyleName:Regular
+MenuName:F37 Bergman
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:F37 Bergman Regular
+WritingScript:Roman
+OutlineFileName:/Users/marijanalemm/Desktop/mahakala-booklets/welcomewordsofmahakala Ordner/Document fonts/F37Bergman-regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:90936
+FileModTime:659635016
+NameArray:0,Mac,4,F37 Bergman Regular
+NameArray:0,Win,1,F37 Bergman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:F37Bergman-Thin
+FamilyName:F37 Bergman
+StyleName:Thin
+MenuName:F37 Bergman Thin
+StyleBits:0
+WeightClass:250
+WidthClass:5
+AngleClass:0
+FullName:F37 Bergman Thin
+WritingScript:Roman
+OutlineFileName:/Users/marijanalemm/Desktop/mahakala-booklets/welcomewordsofmahakala Ordner/Document fonts/F37Bergman-thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:89484
+FileModTime:659635016
+NameArray:0,Mac,4,F37 Bergman Thin
+NameArray:0,Win,1,F37 Bergman Thin
+NameArray:0,Win,16,F37 Bergman
+%EndFont
+
