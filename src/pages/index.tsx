@@ -1,29 +1,10 @@
 import NextImage from "next/image";
 import { useEffect, useRef, useState } from "react";
-
 import Logo from "../../public/sentient_logo.png";
 
 export default function Home() {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isClosed, setIsClosed] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.5;
-      videoRef.current
-        .play()
-        .catch((error) =>
-          console.log('Autoplay was blocked. Show a "Play" button.')
-        );
-    }
-  }, []);
-
-  const handlePlayButtonClick = () => {
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
-  };
 
   const modalRef = useRef<HTMLDivElement | null>(null);
 
@@ -47,6 +28,7 @@ export default function Home() {
     // Clean up the timeout when the component unmounts or dependencies change
     return () => clearTimeout(timer);
   }, []);
+  
   return (
     <main
       className={`flex min-h-screen overflow-y-hidden relative flex-col items-center justify-between px-24`}
@@ -54,16 +36,11 @@ export default function Home() {
       <div className="flex flex-col">
         <div className="fixed inset-0 w-full h-full">
           <div className="bg-black w-full h-full absolute z-[6] opacity-10" />
-          <video
-            ref={videoRef}
+          <img
+            src="https://raw.githubusercontent.com/haonchon/riverai/main/public/BackgroundAIVideoMoracaRiver.gif"
             className="absolute inset-0 w-full h-full z-[5] object-cover"
-            src="https://taraliver.b-cdn.net/Tara%20River.mp4"
-            title="Your video title"
-            autoPlay
-            muted
-            playsInline
-            loop
-          ></video>
+            alt="Your background"
+          />
         </div>
         <div
           className={`z-[12] ${
