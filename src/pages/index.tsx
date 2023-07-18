@@ -64,7 +64,7 @@ export default function Home() {
               </h1>
               <iframe
                 className="z-[11] opacity-90 rounded-md w-[300px] md:w-[600px] h-[400px] lg:h-[600px]"
-                src="https://sentient.retune.so/chat/11ede80e-cc16-dcf0-9c30-1136ef551952/widget?key=11edbf75-310a-4970-a236-45941de73e77"
+                src="https://retune.so/chat/11ede80e-cc16-dcf0-9c30-1136ef551952/widget?key=11edbf75-310a-4970-a236-45941de73e77"
                 width="550"
                 height="700"
               />
