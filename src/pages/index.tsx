@@ -1,6 +1,7 @@
 import NextImage from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Logo from "../../public/sentient_logo.png";
+import Script from "next/script";
 
 export default function Home() {
   const [isClosed, setIsClosed] = useState(true);
@@ -59,17 +60,17 @@ export default function Home() {
             className={`flex flex-col z-[12] justify-center align-center items-center gap-10`}
           >
 
-            <script
-      id="retune.so/chat"
-      src="https://retune.so/api/script/chat.js?iframe&id=11ede80e-cc16-dcf0-9c30-1136ef551952"
-      defer
-    ></script>
-    <iframe
-      data-retune-chat="11ede80e-cc16-dcf0-9c30-1136ef551952"
-      width="550"
-      height="700"
-      style="border:0;background:white;"
-    />
+            <Script
+              id="retune.so/chat"
+              src="https://retune.so/api/script/chat.js?iframe&id=11ede80e-cc16-dcf0-9c30-1136ef551952"
+              defer
+            />
+            <iframe
+              data-retune-chat="11ede80e-cc16-dcf0-9c30-1136ef551952"
+              width="550"
+              height="700"
+              style="border:0;background:white;"
+            />
             
             <button
               onClick={() => setModalOpen(true)}
