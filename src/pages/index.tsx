@@ -58,17 +58,19 @@ export default function Home() {
           <div
             className={`flex flex-col z-[12] justify-center align-center items-center gap-10`}
           >
-            <div className="flex flex-col items-center">
-              <h1 className="text-[20px] text-white font-[600]">
-                Chat with Morača, the wild river in Montenegro
-              </h1>
-              <iframe
-                className="z-[11] opacity-90 rounded-md w-[300px] md:w-[600px] h-[400px] lg:h-[600px]"
-                src="https://retune.so/chat/11ede80e-cc16-dcf0-9c30-1136ef551952/widget?key=11edbf75-310a-4970-a236-45941de73e77"
-                width="550"
-                height="700"
-              />
-            </div>
+
+            <script
+      id="retune.so/chat"
+      src="https://retune.so/api/script/chat.js?iframe&id=11ede80e-cc16-dcf0-9c30-1136ef551952"
+      defer
+    ></script>
+    <iframe
+      data-retune-chat="11ede80e-cc16-dcf0-9c30-1136ef551952"
+      width="550"
+      height="700"
+      style="border:0;background:white;"
+    />
+            
             <button
               onClick={() => setModalOpen(true)}
               className="bg-white uppercase font-[600] text-black rounded-[18px] px-5 py-2"
@@ -102,10 +104,6 @@ export default function Home() {
                   nature conservation and restoration. By combining
                   live data and the latest research, we aim to monitor
                   and redirect value towards nature stewardship.`}
-                </h1>
-                <h1>
-                  This is a demo. For more information please write{" "}
-                  <br /> jasmine@speaksentient.com
                 </h1>
               </div>
             </div>
