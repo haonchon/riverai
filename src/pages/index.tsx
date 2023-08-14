@@ -100,7 +100,7 @@ export default function Home() {
               </button>
               <div className="flex flex-col w-full text-center gap-10">
                 <h1>
-                  {` We're creating AI chat bots to educate and rebuild
+                  {` We are creating AI chat bots to educate and rebuild
                   relationships with more-than-human beings, for
                   nature conservation and restoration. By combining
                   live data and the latest research, we aim to monitor
