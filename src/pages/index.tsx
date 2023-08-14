@@ -69,7 +69,7 @@ export default function Home() {
               data-retune-chat="11ede80e-cc16-dcf0-9c30-1136ef551952"
               width="550"
               height="700"
-              style={{ border: 0 }}
+              style={{ border: 0, background: 'rgba(255,255,255,0.2)' }}
             />
             
             <button
