@@ -62,7 +62,7 @@ export default function Home() {
 
             <Script
               id="retune.so/chat"
-              src="https://retune.so/api/script/chat.js?iframe&id=11ede80e-cc16-dcf0-9c30-1136ef551952"
+              src="https://retune.so/api/script/chat.js?id=11f06bd4-6506-0ee0-8e86-abdef75f9f3f"
               defer
             />
             <iframe
